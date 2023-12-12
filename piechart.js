@@ -51,10 +51,10 @@ function genderratio(arrays) {
     let m = 0;
     let f = 0;
     arrays.forEach((row, i) => {
-        if (arrays[i][0] == "Apple") {
+        if (arrays[i][2] == "m") {
             m += 1;
         }
-        if (arrays[i][0] == "Samsung") {
+        if (arrays[i][2] == "f") {
             f += 1;
         }
     })
